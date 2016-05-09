@@ -13,6 +13,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RequestParam;
 
 /**
  *
@@ -35,5 +36,11 @@ public class ProductController {
         model.addAttribute("products", proService.getAllProducts());
         
         return "products";
+    }
+    
+    @RequestMapping("/product")
+    public String getProductById(@RequestParam("id") String productId, Model model){
+        model.addAttribute("product", proService.getProductById(productId));
+        return "product";
     }
 }

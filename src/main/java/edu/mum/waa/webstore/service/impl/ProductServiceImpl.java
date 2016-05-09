@@ -26,5 +26,14 @@ public class ProductServiceImpl implements ProductService {
     public List<Product> getAllProducts() {
         return proRepo.getAllProducts();
     }
+
+    @Override
+    public Product getProductById(String productId) {
+        for(Product p : getAllProducts())
+            if(p.getProductId().equals(productId)){
+                return p;
+            }
+        return null;
+    }
     
 }

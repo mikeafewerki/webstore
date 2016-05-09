@@ -29,18 +29,21 @@ public class InMemoryProdudctRepository implements ProductRepository{
         product1.setName("Jeans");
         product1.setUnitPrice(new BigDecimal(30));
         product1.setUnitsInStock(10);
+        product1.setDescription("The latest fashion Jeans.");
         
         Product product2 = new Product();
         product2.setProductId("22");
         product2.setName("Shirt");
         product2.setUnitPrice(new BigDecimal(40));
         product2.setUnitsInStock(10);
-        
+        product2.setDescription("Slim fit shirts");
+         
         Product product3 = new Product();
         product3.setProductId("33");
         product3.setName("Skirt");
         product3.setUnitPrice(new BigDecimal(50));
         product3.setUnitsInStock(10);
+        product3.setDescription("Made in China");
         
         this.listOfProducts.add(product1);
         this.listOfProducts.add(product2);
