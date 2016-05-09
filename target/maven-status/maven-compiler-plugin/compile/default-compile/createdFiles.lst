@@ -6,5 +6,3 @@ edu\mum\waa\webstore\controller\ProductController.class
 edu\mum\waa\webstore\domain\Product.class
 edu\mum\waa\webstore\service\impl\ProductServiceImpl.class
 edu\mum\waa\webstore\controller\OrderController.class
-edu\mum\waa\webstore\repository\impl\InMemoryProdudctRepository.class
-edu\mum\waa\webstore\repository\ProductRepository.class

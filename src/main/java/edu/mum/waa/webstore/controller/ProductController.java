@@ -6,7 +6,6 @@
 package edu.mum.waa.webstore.controller;
 
 import edu.mum.waa.webstore.domain.Product;
-import edu.mum.waa.webstore.repository.ProductRepository;
 import edu.mum.waa.webstore.service.impl.ProductServiceImpl;
 import java.math.BigDecimal;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -20,12 +19,13 @@ import org.springframework.web.bind.annotation.RequestParam;
  * @author 984986
  */
 @Controller
+@RequestMapping("/products")
 public class ProductController {
     
     @Autowired
     private ProductServiceImpl proService;
     //prodiuctService
-    @RequestMapping("/products")
+    @RequestMapping
     public String productList(Model model){
         //Product product = new Product("12","iPhone", new BigDecimal(32));
 //        product.setCategory("cloths");

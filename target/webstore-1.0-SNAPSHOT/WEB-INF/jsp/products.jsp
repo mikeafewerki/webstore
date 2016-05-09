@@ -31,7 +31,7 @@
 
                                 <p>
                                     <a href=" <spring:url value=
-                                                "/product?id=${product.productId}" /> " class="btn btn-primary">
+                                                "/products/product?id=${product.productId}" /> " class="btn btn-primary">
                                         <span class="glyphicon-info-sign glyphicon"/></span> Details
                                     </a>
                                 </p>

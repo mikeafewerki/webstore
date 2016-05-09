@@ -6,8 +6,8 @@
 package edu.mum.waa.webstore.service.impl;
 
 import edu.mum.waa.webstore.domain.Product;
-import edu.mum.waa.webstore.repository.ProductRepository;
 import edu.mum.waa.webstore.service.OrderService;
+import edu.mum.waa.webstore.service.ProductService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
@@ -19,11 +19,11 @@ import org.springframework.stereotype.Service;
 public class OrderServiceImpl implements OrderService {
     
     @Autowired
-    private ProductRepository proRepo;
+    private ProductService proService;
 
     @Override
     public void processOrder(String productId, int count) {
-        Product product = proRepo.getProductById(productId);
+        Product product = proService.getProductById(productId);
         if(product !=null && product.getUnitsInStock()> count){
             product.setUnitsInOrder(count);
             product.setUnitsInStock(product.getUnitsInStock() - count);
