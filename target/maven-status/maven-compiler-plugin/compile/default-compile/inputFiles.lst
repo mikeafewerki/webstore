@@ -1,8 +1,8 @@
-C:\Users\984986\Downloads\corejsf3-examples\javaee\ch10\webstore0.1\src\main\java\edu\mum\waa\webstore\controller\OrderController.java
-C:\Users\984986\Downloads\corejsf3-examples\javaee\ch10\webstore0.1\src\main\java\edu\mum\waa\webstore\service\ProductService.java
-C:\Users\984986\Downloads\corejsf3-examples\javaee\ch10\webstore0.1\src\main\java\edu\mum\waa\webstore\domain\Product.java
-C:\Users\984986\Downloads\corejsf3-examples\javaee\ch10\webstore0.1\src\main\java\edu\mum\waa\webstore\service\impl\OrderServiceImpl.java
-C:\Users\984986\Downloads\corejsf3-examples\javaee\ch10\webstore0.1\src\main\java\edu\mum\waa\webstore\controller\HomeController.java
-C:\Users\984986\Downloads\corejsf3-examples\javaee\ch10\webstore0.1\src\main\java\edu\mum\waa\webstore\controller\ProductController.java
-C:\Users\984986\Downloads\corejsf3-examples\javaee\ch10\webstore0.1\src\main\java\edu\mum\waa\webstore\service\OrderService.java
-C:\Users\984986\Downloads\corejsf3-examples\javaee\ch10\webstore0.1\src\main\java\edu\mum\waa\webstore\service\impl\ProductServiceImpl.java
+C:\Users\Mike\Documents\NetBeansProjects\webstore\webstore\src\main\java\edu\mum\waa\webstore\service\ProductService.java
+C:\Users\Mike\Documents\NetBeansProjects\webstore\webstore\src\main\java\edu\mum\waa\webstore\service\impl\OrderServiceImpl.java
+C:\Users\Mike\Documents\NetBeansProjects\webstore\webstore\src\main\java\edu\mum\waa\webstore\controller\ProductController.java
+C:\Users\Mike\Documents\NetBeansProjects\webstore\webstore\src\main\java\edu\mum\waa\webstore\service\OrderService.java
+C:\Users\Mike\Documents\NetBeansProjects\webstore\webstore\src\main\java\edu\mum\waa\webstore\controller\HomeController.java
+C:\Users\Mike\Documents\NetBeansProjects\webstore\webstore\src\main\java\edu\mum\waa\webstore\domain\Product.java
+C:\Users\Mike\Documents\NetBeansProjects\webstore\webstore\src\main\java\edu\mum\waa\webstore\service\impl\ProductServiceImpl.java
+C:\Users\Mike\Documents\NetBeansProjects\webstore\webstore\src\main\java\edu\mum\waa\webstore\controller\OrderController.java
