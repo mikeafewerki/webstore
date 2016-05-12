@@ -1,6 +1,7 @@
 edu\mum\waa\webstore\controller\HomeController.class
 edu\mum\waa\webstore\service\OrderService.class
 edu\mum\waa\webstore\service\impl\OrderServiceImpl.class
+edu\mum\waa\webstore\controller\LoginController.class
 edu\mum\waa\webstore\service\ProductService.class
 edu\mum\waa\webstore\controller\ProductController.class
 edu\mum\waa\webstore\domain\Product.class
